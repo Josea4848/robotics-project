@@ -1,0 +1,201 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/jose/Documents/robotica/build/robotics_class
+-- Install configuration: ""
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/launch
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/launch/robot_description.launch.py
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/launch/ekf.launch.py
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/launch/rviz.launch.py
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/launch/simulation_world.launch.py
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf/p3d_plugin.gazebo.xacro
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf/jetauto.xacro
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf/lidar.urdf.xacro
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf/materials.xacro
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf/imu.urdf.xacro
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf/jetauto_car.urdf.xacro
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf/inertial_matrix.xacro
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/urdf/depth_camera.urdf.xacro
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/bed
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/bed/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/bed/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/bed/bed_model.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/base_arena
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/base_arena/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/base_arena/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/meshes/vase2.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials/textures
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials/textures/bronze.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials/scripts
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/vase_small/materials/scripts/vase_pattern1.material
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/stove
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/stove/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/stove/stove.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/stove/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/tv
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/tv/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/tv/tv.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/tv/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/model.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/frame.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/meshes/cushions.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/fabric_1.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black_1.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black_3.png
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/textures/wood_black.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts/chair_1_frame.material
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/chair_1/materials/scripts/chair_1_cushion.material
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/meshes/table2.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black_1.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black_3.png
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/textures/wood_black.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/scripts
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_dining/materials/scripts/dining_table.material
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_bot.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/model.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_full.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_frame.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_back.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/meshes/sofa_cushions_sides.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/textures
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/textures/fabric_black.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/scripts
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sofa_set_1/materials/scripts/sofa_set_1.material
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_breakfast
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/meshes/table3.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/table_breakfast/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/screen_link_collision.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_left_back_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/base_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/back_shell_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/base_link_collision.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_left_front_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/depth_camera_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_right_front_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/wheel_right_back_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/mic_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/depth_camera_link_collision.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/lidar_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/screen_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/jetauto/speaker_link.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/person
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/person/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/person/walk.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/person/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes/base.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/meshes/seat.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/kitchen_chair/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/meshes/model.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/textures
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/textures/metal_black_2.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/scripts
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/file_cabinet_small/materials/scripts/file_black.material
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sink
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sink/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sink/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/sink/sink.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/plant_1_single
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/meshes/leaf.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/plant_1_single/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/refrigerator
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/refrigerator/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/refrigerator/refrigerator.stl
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/refrigerator/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/model.sdf
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_mid.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/model.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/tables.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_full.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_frame.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/meshes/table_large_top.dae
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/model.config
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures/wood_dark_1.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/textures/leather.jpg
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_surf.material
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_frame.material
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/rviz
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/rviz/view.rviz
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/worlds
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/worlds/arena_1.world
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/params
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/params/ekf.yaml
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/ament_index/resource_index/package_run_dependencies/robotics_class
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/ament_index/resource_index/parent_prefix_path/robotics_class
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/environment/ament_prefix_path.sh
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/environment/ament_prefix_path.dsv
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/environment/path.sh
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/environment/path.dsv
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/local_setup.bash
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/local_setup.sh
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/local_setup.zsh
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/local_setup.dsv
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/package.dsv
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/ament_index/resource_index/packages/robotics_class
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/cmake/robotics_classConfig.cmake
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/cmake/robotics_classConfig-version.cmake
+-- Installing: /home/jose/Documents/robotica/install/robotics_class/share/robotics_class/package.xml
