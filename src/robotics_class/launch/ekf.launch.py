@@ -8,15 +8,20 @@ from launch.substitutions import Command, LaunchConfiguration
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 
+
 def generate_launch_description():
     robot_localization_node = Node(
-        package='robot_localization',
-        executable='ekf_node',
-        name='ekf_filter_node',
-        output='screen',
-        parameters=[os.path.join(get_package_share_directory("robotics_class"), 'params', 'ekf.yaml')],
-        remappings=[('/odometry/filtered', '/jetauto/odometry/filtered')]
-
+        package="robot_localization",
+        executable="ekf_node",
+        name="ekf_filter_node",
+        output="screen",
+        parameters=[
+            os.path.join(
+                get_package_share_directory("robotics_class"), "params", "ekf.yaml"
+            ),
+            {"use_sim_time": True},
+        ],
+        remappings=[("/odometry/filtered", "/jetauto/odometry/filtered")],
     )
 
     ld = LaunchDescription()
@@ -25,7 +30,8 @@ def generate_launch_description():
 
     return ld
 
-if __name__ == '__main__':
+
+if __name__ == "__main__":
     ld = generate_launch_description()
 
     ls = LaunchService()

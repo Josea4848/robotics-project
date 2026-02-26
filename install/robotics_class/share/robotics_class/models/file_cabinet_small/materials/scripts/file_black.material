@@ -1,15 +1,1 @@
-material file_black
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture metal_black_2.jpg
-	scale 1 1
-      }
-    }
-  }
-}
-
+/home/jose/Documents/robotica/src/robotics_class/models/file_cabinet_small/materials/scripts/file_black.material

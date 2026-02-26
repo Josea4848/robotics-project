@@ -1,15 +1,1 @@
-material sofa_set_1
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture fabric_black.jpg
-	scale 1 1
-      }
-    }
-  }
-}
-
+/home/jose/Documents/robotica/src/robotics_class/models/sofa_set_1/materials/scripts/sofa_set_1.material

@@ -1,15 +1,1 @@
-material coffee_table_set_1_frame
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture wood_dark_1.jpg
-	scale 1 1
-      }
-    }
-  }
-}
-
+/home/jose/Documents/robotica/src/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_frame.material

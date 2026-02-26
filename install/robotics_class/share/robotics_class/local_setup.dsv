@@ -1,2 +1,1 @@
-source;share/robotics_class/environment/ament_prefix_path.sh
-source;share/robotics_class/environment/path.sh
+/home/jose/Documents/robotica/build/robotics_class/ament_cmake_environment_hooks/local_setup.dsv

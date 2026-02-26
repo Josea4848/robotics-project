@@ -1,15 +1,1 @@
-material vase_pattern1
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture bronze.jpg
-	scale 1 1
-      }
-    }
-  }
-}
-
+/home/jose/Documents/robotica/src/robotics_class/models/vase_small/materials/scripts/vase_pattern1.material

@@ -1,8 +1,12 @@
 run_acml.sh
 run_slam.sh
+run_navigation.sh
 rviz_config.rviz
 
+.vscode/
+install/
 devel/
+log/
 logs/
 build/
 bin/

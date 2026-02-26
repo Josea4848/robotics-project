@@ -1,15 +1,1 @@
-material chair_1_cushion
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture fabric_1.jpg
-	scale 1 1
-      }
-    }
-  }
-}
-
+/home/jose/Documents/robotica/src/robotics_class/models/chair_1/materials/scripts/chair_1_cushion.material

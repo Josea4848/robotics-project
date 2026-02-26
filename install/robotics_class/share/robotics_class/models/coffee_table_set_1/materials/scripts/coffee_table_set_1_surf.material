@@ -1,15 +1,1 @@
-material coffee_table_set_1_surf
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture leather.jpg
-	scale 1 1
-      }
-    }
-  }
-}
-
+/home/jose/Documents/robotica/src/robotics_class/models/coffee_table_set_1/materials/scripts/coffee_table_set_1_surf.material

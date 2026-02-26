@@ -15,6 +15,7 @@ install(DIRECTORY
   worlds
   params
   maps
+  behavior_trees
 	DESTINATION share/${PROJECT_NAME}
 )
 
