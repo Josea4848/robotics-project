@@ -30,7 +30,6 @@ def generate_launch_description() -> LaunchDescription:
     namespace = LaunchConfiguration("namespace")
     use_sim_time = LaunchConfiguration("use_sim_time")
     autostart = LaunchConfiguration("autostart")
-    graph_filepath = LaunchConfiguration("graph")
     params_file = LaunchConfiguration("params_file")
     use_composition = LaunchConfiguration("use_composition")
     use_intra_process_comms = LaunchConfiguration("use_intra_process_comms")
